@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>HyperSafuu - </title>
+	<link rel="stylesheet" type="text/css" href="css/plugins.css">
+	<link rel="stylesheet" type="text/css" href="css/theme-styles.css">
+	<link rel="stylesheet" type="text/css" href="css/blocks.css">
+	<link rel="stylesheet" type="text/css" href="css/widgets.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/font-awesome.css"> -->
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700i,900," rel="stylesheet">
+	<style>
+		@media (min-width: 1201px) {
+			.vertical-center {
+				margin: 0;
+				/* position: absolute; */
+				top: 25vh;
+				/* -ms-transform: translateY(75%);
+				transform: translateY(75%); */
+			}
+		}
+		@media (max-width: 460px) {
+			/* #primary-menu {
+				margin: auto;
+			} */
+			.site-logo {
+				width: unset;
+				justify-content: unset;
+				justify-content: unset;
+				margin-bottom: 0px;
+			}
+			.btn--market {
+				margin-bottom: 1em;
+			}
+			.crumina-heading[class*="heading--h"] .heading-sup-title {
+				font-size: 180%;
+			}
+			
+		}
+		.crumina-heading.heading--with-decoration .heading-title:after {
+			content: '!';
+			margin-left: 15px;
+		}
+		.text-muted {
+			color: #9da2a7!important;
+		}
+		.d-none {
+			display: none!important;
+		}
+		.text-center {
+			text-align: center!important;
+		}
+		.mr-5 {
+			margin-right: 5%;
+		}
+		.list li a {
+			max-width: none;
+		}
+		.tabs ul li.zl {
+			margin: 0 20px;
+		}
+	</style>
+</head>
+<body class="crumina-grid">
+<!-- Header -->
+<header class="header" id="site-header">
+	<div class="container">
+		<div class="header-content-wrapper">
+			<a href="#" class="site-logo">
+				<img src="img/hypersafuu/Logo-png.png" alt="HyperSafuu" style="width: 50px;">
+				<h5>HyperSafuu</h5>
+				<!-- <img src="img/logo-primary.png" alt="Woox"> -->
+				<!-- <svg class="woox-icon" viewBox="0 0 481.448 101.996">
+					<path d="M152.514 14.926c0 2.1-1.339 4.593-2.1 7.081L126.3 89.366c-2.487 7.654-8.229 11.673-14.543 11.673-6.889 0-12.056-4.019-15.309-11.673L76.162 43.822 55.877 89.366c-3.253 7.654-8.994 11.673-15.309 11.673-6.7 0-12.056-4.019-14.543-11.673L2.1 22.007C1.148 19.519 0 17.031 0 14.926A14.213 14.213 0 0 1 14.352.574c5.358 0 11.1 3.062 12.821 8.037l15.5 49.18L62.575 9.76C65.063 3.827 69.655.574 76.162.574c6.7 0 11.29 3.253 13.778 9.186l19.71 48.031 15.692-49.18c1.531-4.593 7.271-8.037 12.821-8.037a14.212 14.212 0 0 1 14.351 14.352zM263.69 51.285c0 34.253-29.853 50.711-51.667 50.711-22.006 0-51.859-16.458-51.859-50.711C160.164 17.223 190.016 0 212.022 0c21.815 0 51.668 17.223 51.668 51.285zm-73.292 0c0 14.352 9.568 24.3 21.624 24.3 11.864 0 21.624-9.951 21.624-24.3 0-14.926-9.759-24.877-21.624-24.877-12.055 0-21.622 9.951-21.622 24.877zm190.974 0c0 34.253-29.853 50.715-51.672 50.715-22.006 0-51.858-16.458-51.858-50.711C277.845 17.223 307.7 0 329.7 0c21.819 0 51.672 17.223 51.672 51.285zm-73.291 0c0 14.352 9.567 24.3 21.623 24.3 11.865 0 21.624-9.951 21.624-24.3 0-14.926-9.759-24.877-21.624-24.877-12.056 0-21.623 9.951-21.623 24.877zm173.367 36.932c0 7.271-6.7 13.4-13.97 13.4-4.4 0-7.846-2.3-10.716-5.55l-21.05-24.686-21.05 24.686c-2.87 3.253-6.123 5.55-10.716 5.55-7.08 0-13.97-6.124-13.97-13.4a12.074 12.074 0 0 1 3.254-8.229l25.45-28.9-25.45-28.9a12.348 12.348 0 0 1-3.062-8.037c0-7.463 6.89-13.586 13.97-13.586a13.062 13.062 0 0 1 10.716 5.549L435.712 30.8l20.859-24.676c2.87-3.444 6.315-5.549 10.907-5.549 6.89 0 13.778 6.124 13.778 13.586a12.352 12.352 0 0 1-3.062 8.037l-25.451 28.9 25.451 28.9a11.252 11.252 0 0 1 3.254 8.219z" data-name="Слой 2" />
+				</svg> -->
+			</a>
+			<nav id="primary-menu" class="primary-menu">
+				<!-- menu-icon-wrapper -->
+				<a href='javascript:void(0)' id="menu-icon-trigger" class="menu-icon-trigger showhide">
+					<span class="mob-menu--title">Menu</span>
+					<span id="menu-icon-wrapper" class="menu-icon-wrapper">
+						<svg width="1000px" height="1000px">
+							<path id="pathD" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+							<path id="pathE" d="M 300 500 L 700 500"></path>
+							<path id="pathF" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+						</svg>
+					</span>
+				</a>
+				<ul class="primary-menu-menu">
+					<li><a data-scroll href="#">Home</a></li>
+					<li><a data-scroll href="#about">About</a></li>
+					<li><a data-scroll href="#tokenomics">Tokenomics</a></li>
+					<li><a data-scroll href="#roadmap">Roadmap</a></li>
+					<li><a data-scroll href="#token-details">Token Details</a></li>
+					<li><a data-scroll href="#faq">F.A.Q</a></li>
+				</ul>
+			</nav>
+			<!-- <select class="woox--select language-switcher" data-minimum-results-for-search="Infinity" data-dropdown-css-class="language-switcher-dropdown">
+				<option value="French" data-href="">French</option>
+				<option value="German" data-href="">German</option>
+				<option value="Ukrainian" data-href="">Ukrainian</option>
+				<option value="English" data-href="">English</option>
+			</select> -->
+		</div>
+	</div>
+</header>
+<!-- ... end Header -->
+<div class="main-content-wrapper">
+	<!-- HOME -->
+	<section data-settings="particles-1" class="main-section crumina-flying-balls particles-js bg-1 medium-padding120 responsive-align-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
+					<img class="responsive-width-50" src="img/hypersafuu/Logo-png.png" alt="image">
+				</div>
+				<div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
+					<header class="crumina-module crumina-heading heading--h1 heading--with-decoration">
+						<h1 class="heading-title f-size-90 weight-normal no-margin">THE FUTURE <br>
+						<span class="weight-bold">IS HERE</span></h1>
+						<h5 class="text-muted">HyperSafuu is a multifunctional cross chain ecosystem comprising of busd rewards, NFT marketplace and staking DAO</h5>
+					</header>
+
+					<a href="#" class="btn btn--market btn--apple btn--with-icon btn--icon-left" style="margin-top: 0;">
+						Whitepaper
+					</a>
+					<a href="#" class="btn btn--market btn--google">
+						Buy on PancakeSwap!
+					</a>
+					<!-- <a data-scroll href="#details" class="btn btn--large btn--transparent btn--secondary">Details</a>
+					<a data-scroll href="#details" class="btn btn--large btn--transparent btn--secondary">Details</a> -->
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- About -->
+	<section id="about" class="medium-padding120 responsive-align-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+					<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
+						<div class="heading-sup-title">About Us</div>
+						<!-- <h2 class="heading-title weight-normal">Statistics of currencies on
+							<span class="weight-bold">all your devices</span></h2> -->
+						<div class="heading-text">
+							HyperSafuu is an ecosystem app that provides simplicity in trading crypt
+							and NFTs at the lowest fees, offering a reliable and easy-to-use platform
+							to access the broader crypto economy.
+						</div>
+					</header>
+					<p class="d-none">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est
+						etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare
+						quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis
+						per laoreet sit amet cursus seacula qui mutationem consuetudium claritas est etiam processus dynamicus.
+					</p>
+					<div class="btn-market-wrap mt60 d-none">
+						<a href="#" class="btn btn--market btn--apple btn--with-icon btn--icon-left">
+							<svg class="woox-icon icon-apple">
+								<use xlink:href="#icon-apple"></use>
+							</svg>
+							<div class="text">
+								<span class="sup-title">download on</span>
+								<span class="title">Apple Store</span>
+							</div>
+						</a>
+
+						<a href="#" class="btn btn--market btn--google btn--with-icon btn--icon-left">
+							<svg class="woox-icon icon-if-59-play-843782">
+								<use xlink:href="#icon-if-59-play-843782"></use>
+							</svg>
+							<div class="text">
+								<span class="sup-title">download on</span>
+								<span class="title">Google Play</span>
+							</div>
+						</a>
+					</div>
+				</div>
+
+				<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mt30">
+					<img class="responsive-width-50" src="img/phone.png" alt="phone">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Tokenomics -->
+	<section id="tokenomics">
+		<div class="container">
+			<div class="row medium-padding100">
+				<div class="heading-sup-title "><h2 class="text-center">Tokenomics</h2></div>
+				<!-- Marketing -->
+				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12" data-mh="pricing-item" style="height: 403.781px;">
+					<div class="crumina-module crumina-pricing-table pricing-table--small">
+						<div class="pricing-thumb">
+							<!-- <img src="img/if_Bitcoin_2745023.png" class="woox-icon" alt="bitcoin"> -->
+							<i class="woox-icon fa-4x mr-5 fas fa-chart-bar"></i>
+							<h5 class="pricing-title">3%  <span>Marketing</span></h5>
+							<!-- <div class="gain-drop-arrow">
+								<svg class="woox-icon icon-arrow-up arrow-up">
+									<use xlink:href="#icon-arrow-up"></use>
+								</svg>
+								<svg class="woox-icon icon-arrow-down arrow-down">
+									<use xlink:href="#icon-arrow-down"></use>
+								</svg>
+							</div> -->
+						</div>
+						<div class="price">
+							<div class="price-sup-title">
+								3% of all transactions will go to our team marketing wallet to ensure we are able to come up with the best campaigns to get a great return on your investment
+							</div>
+							<!-- <div class="price-value">$9.635.34
+								<div class="growth">+ 1.25%</div>
+							</div> -->
+						</div>
+						<!-- <a href="005_coin_market.html" class="btn btn--large btn--dark-lighter btn--transparent full-width">Buy Bitcoin Now!</a> -->
+					</div>
+				</div>
+				<!-- Buy Back -->
+				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12" data-mh="pricing-item" style="height: 403.781px;">
+					<div class="crumina-module crumina-pricing-table pricing-table--small">
+						<div class="pricing-thumb">
+							<i class="woox-icon fas fa-redo fa-4x mr-5"></i>
+							<h5 class="pricing-title">2%  <span>Buy back</span></h5>
+						</div>
+						<div class="price">
+							<div class="price-sup-title">
+								2% of every transaction is transferred into liquidity Pool for Pancakeswap to create a stable price floor.
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Rewards -->
+				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12" data-mh="pricing-item" style="height: 403.781px;">
+					<div class="crumina-module crumina-pricing-table pricing-table--small">
+						<div class="pricing-thumb">
+							<i class="woox-icon fas fa-gift fa-4x mr-5"></i>
+							<h5 class="pricing-title">HIGHEST <span>BUSD Rewards</span></h5>
+						</div>
+						<div class="price">
+							<div class="price-sup-title">
+								Automatically earn 8% Binance pegged BUSD rewards just for holding HyperSafuu . 8% of every buy/sell is awarded to holders automatically in their wallets.
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Liquidity Pool -->
+				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12" data-mh="pricing-item" style="height: 403.781px;">
+					<div class="crumina-module crumina-pricing-table pricing-table--small">
+						<div class="pricing-thumb">
+							<i class="woox-icon fas fa-redo fa-4x mr-5"></i>
+							<h5 class="pricing-title">1% <span>Auto Liquidity</span></h5>
+						</div>
+						<div class="price">
+							<div class="price-sup-title">
+								1% of every buy/sell is automatically deposited into the locked liquidity wallet as $BNB, providing continuous liquidity to aid in price stabilization. The liquidity pool is locked and certified.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Roadmap -->
+	<section id="roadmap">
+		<div class="container">
+			<div class="row medium-padding100">
+				<div class="heading-sup-title "><h2 class="text-center">Roadmap</h2></div>
+
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div class="tabs tabs--style5">
+						<ul role="tablist">
+							<li role="presentation" class="tab-control active">
+								<a href="#tab-32" role="tab" data-toggle="tab" class="control-item">
+									<h6 class="tab-title">Phase 1</h6>
+								</a>
+							</li>
+							<li role="presentation" class="tab-control">
+								<a href="#tab-33" role="tab" data-toggle="tab" class="control-item">
+									<h6 class="tab-title">Phase 2</h6>
+								</a>
+							</li>
+							<li role="presentation" class="tab-control">
+								<a href="#tab-34" role="tab" data-toggle="tab" class="control-item">
+									<h6 class="tab-title">Phase 3</h6>
+								</a>
+							</li>
+							<li role="presentation" class="tab-control">
+								<a href="#tab-35" role="tab" data-toggle="tab" class="control-item">
+									<h6 class="tab-title">Phase 4</h6>
+								</a>
+							</li>
+						</ul>
+						<div class="tab-content">
+							<div role="tabpanel" class="tab-pane fade active" id="tab-32">
+								<div style="margin: 0 auto;width: fit-content;">
+									<ul class="list list--primary">
+										<li class="zl">
+											<svg class="woox-icon icon-check-mark-2">
+												<use xlink:href="#icon-check-mark-2"></use>
+											</svg>
+											<a href="#"><strong>Project Ideation & Team Creation</strong></a>
+										</li>
+										<li class="zl">
+											<svg class="woox-icon icon-check-mark-2">
+												<use xlink:href="#icon-check-mark-2"></use>
+											</svg>
+											<a href="#"><strong>Token Creation on (Binance Smart Chain)</strong></a>
+										</li>
+										<li class="zl">
+											<svg class="woox-icon icon-check-mark-2">
+												<use xlink:href="#icon-check-mark-2"></use>
+											</svg>
+											<a href="#"><strong>Website Redesign</strong></a>
+										</li>
+										<li class="zl">
+											<svg class="woox-icon icon-check-mark-2">
+												<use xlink:href="#icon-check-mark-2"></use>
+											</svg>
+											<a href="#"><strong>Whitepaper released</strong></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div role="tabpanel" class="tab-pane fade" id="tab-33">
+								<div style="margin: 0 auto;width: fit-content;">
+									<ul class="list list--primary">
+										<li class="zl">
+											<svg class="woox-icon icon-check-mark-2">
+												<use xlink:href="#icon-check-mark-2"></use>
+											</svg>
+											<a href="#"><strong>Contract Audit</strong></a>
+										</li>
+										<li class="zl">
+											<svg class="woox-icon icon-check-mark-2">
+												<use xlink:href="#icon-check-mark-2"></use>
+											</svg>
+											<a href="#"><strong>Pre-launch Marketing</strong></a>
+										</li>
+										<li class="zl">
+											<svg class="woox-icon icon-check-mark-2">
+												<use xlink:href="#icon-check-mark-2"></use>
+											</svg>
+											<a href="#"><strong>HyperSafuu launch</strong></a>
+										</li>
+										<li class="zl">
+											<svg class="woox-icon icon-check-mark-2">
+												<use xlink:href="#icon-check-mark-2"></use>
+											</svg>
+											<a href="#"><strong>Partnerships with influencers</strong></a>
+										</li>
+										<li class="zl">
+											<svg class="woox-icon icon-check-mark-2">
+												<use xlink:href="#icon-check-mark-2"></use>
+											</svg>
+											<a href="#"><strong>Airdrop</strong></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div role="tabpanel" class="tab-pane fade" id="tab-34">
+								<div style="margin: 0 auto;width: fit-content;">
+									<ul class="list list--primary">
+										<li class="zl">
+											<svg class="woox-icon icon-check-mark-2">
+												<use xlink:href="#icon-check-mark-2"></use>
+											</svg>
+											<a href="#"><strong>dApp Phase 1 Release</strong></a>
+										</li>
+										<li class="zl">
+											<svg class="woox-icon icon-check-mark-2">
+												<use xlink:href="#icon-check-mark-2"></use>
+											</svg>
+											<a href="#"><strong>HyperSafuu Swap</strong></a>
+										</li>
+										<li class="zl">
+											<svg class="woox-icon icon-check-mark-2">
+												<use xlink:href="#icon-check-mark-2"></use>
+											</svg>
+											<a href="#"><strong>HyperSafuu staking</strong></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div role="tabpanel" class="tab-pane fade" id="tab-35">
+								<div style="margin: 0 auto;width: fit-content;">
+									<ul class="list list--primary">
+										<li class="zl">
+											<svg class="woox-icon icon-check-mark-2">
+												<use xlink:href="#icon-check-mark-2"></use>
+											</svg>
+											<a href="#"><strong>Listed on CoinGecko</strong></a>
+										</li>
+										<li class="zl">
+											<svg class="woox-icon icon-check-mark-2">
+												<use xlink:href="#icon-check-mark-2"></use>
+											</svg>
+											<a href="#"><strong>Listed on CoinMarketCap</strong></a>
+										</li>
+										<li class="zl">
+											<svg class="woox-icon icon-check-mark-2">
+												<use xlink:href="#icon-check-mark-2"></use>
+											</svg>
+											<a href="#"><strong>Listing on Bitmart</strong></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Token Details -->
+	<section id="token-details">
+		<div class="container">
+			<hr class="divider">
+			<div class="row medium-padding100">
+				<div class="heading-sup-title "><h2 class="text-center">Token Distribution</h2></div>
+				<div class="text-center">
+					<p style="margin: auto;max-width: 50%;">
+						Initial Token Distribution of HyperSafuu , was designed to ensure immediate & long-term
+						success. An initial 15% of tokens burned PLUS EACH DAY, an additional MINIMUM 5 MILLION
+						tokens a day BURNED.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- F.A.Q -->
+	<section id="faq">
+		<div class="container">
+			<hr class="divider">
+			<div class="row medium-padding100">
+				<div class="heading-sup-title "><h2 class="text-center">Frequently Asked Questions</h2></div>
+				<!-- FAQ 1 -->
+				<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mb30">
+					<ul class="crumina-module crumina-accordion accordion--style4" id="accordion5">
+						<li class="accordion-panel">
+							<div class="panel-heading">
+								<a href="#toggleSample5" class="accordion-heading collapsed" data-toggle="collapse" data-parent="#accordion" aria-expanded="false">
+									<span class="icons">
+										<svg class="woox-icon icon-arrow-bottom"><use xlink:href="#icon-arrow-bottom"></use></svg>
+									</span>
+									<span class="title">What is HyperSafuu?</span>
+								</a>
+							</div>
+							<div id="toggleSample5" class="panel-collapse collapse" aria-expanded="false" role="tree" style="height: 80px;">
+								<div class="panel-info">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+									ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+									ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+									reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+									sint occaecat cupidatat non proident, sunt in culpa.
+								</div>
+							</div>
+						</li>
+						<li class="accordion-panel">
+							<div class="panel-heading">
+								<a href="#toggleOne5" class="accordion-heading collapsed" data-toggle="collapse" data-parent="#accordion" aria-expanded="false">
+									<span class="icons">
+										<svg class="woox-icon icon-arrow-bottom"><use xlink:href="#icon-arrow-bottom"></use></svg>
+									</span>
+									<span class="title">How do I earn Rewards?</span>
+								</a>
+							</div>
+							<div id="toggleOne5" class="panel-collapse collapse" aria-expanded="false" role="tree">
+								<div class="panel-info">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+									ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+									ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+									reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+									sint occaecat cupidatat non proident, sunt in culpa.
+								</div>
+							</div>
+						</li>
+						<li class="accordion-panel">
+							<div class="panel-heading">
+								<a href="#toggleTwo5" class="accordion-heading collapsed" data-toggle="collapse" data-parent="#accordion" aria-expanded="false">
+									<span class="icons">
+										<svg class="woox-icon icon-arrow-bottom"><use xlink:href="#icon-arrow-bottom"></use></svg>
+									</span>
+									<span class="title">Why is there 12% tax?</span>
+								</a>
+							</div>
+							<div id="toggleTwo5" class="panel-collapse collapse" aria-expanded="false" role="tree">
+								<div class="panel-info">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+									ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+									ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+									reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+									sint occaecat cupidatat non proident, sunt in culpa.
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<!-- FAQ 2 -->
+				<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mb30">
+					<ul class="crumina-module crumina-accordion accordion--style5" id="accordion6">
+						<li class="accordion-panel">
+							<div class="panel-heading">
+								<a href="#toggleSample6" class="accordion-heading collapsed" data-toggle="collapse" data-parent="#accordion" aria-expanded="false">
+									<span class="title">What is slippage?</span>
+									<span class="icons">
+										<svg class="woox-icon icon-arrow-bottom"><use xlink:href="#icon-arrow-bottom"></use></svg>
+									</span>
+								</a>
+							</div>
+							<div id="toggleSample6" class="panel-collapse collapse" aria-expanded="false" role="tree" style="height: 80px;">
+								<div class="panel-info">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+									ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+									ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+									reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+									sint occaecat cupidatat non proident, sunt in culpa.
+								</div>
+							</div>
+						</li>
+						<li class="accordion-panel">
+							<div class="panel-heading">
+								<a href="#toggleOne6" class="accordion-heading collapsed" data-toggle="collapse" data-parent="#accordion" aria-expanded="false">
+									<span class="title">Team doxxed?</span>
+									<span class="icons">
+										<svg class="woox-icon icon-arrow-bottom"><use xlink:href="#icon-arrow-bottom"></use></svg>
+									</span>
+								</a>
+							</div>
+							<div id="toggleOne6" class="panel-collapse collapse" aria-expanded="false" role="tree">
+								<div class="panel-info">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+									ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+									ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+									reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+									sint occaecat cupidatat non proident, sunt in culpa.
+								</div>
+							</div>
+						</li>
+						<li class="accordion-panel">
+							<div class="panel-heading">
+								<a href="#toggleTwo6" class="accordion-heading collapsed" data-toggle="collapse" data-parent="#accordion" aria-expanded="false">
+									<span class="title">Is the liquidity pool locked?</span>
+									<span class="icons">
+										<svg class="woox-icon icon-arrow-bottom"><use xlink:href="#icon-arrow-bottom"></use></svg>
+									</span>
+								</a>
+							</div>
+							<div id="toggleTwo6" class="panel-collapse collapse" aria-expanded="false" role="tree">
+								<div class="panel-info">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+									ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+									ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+									reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+									sint occaecat cupidatat non proident, sunt in culpa.
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+</div>
+<!-- Footer -->
+<footer id="site-footer" class="footer ">
+	<canvas id="can"></canvas>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12 col-sm-offset-0 col-xs-12">
+				<div class="widget w-info">
+					<a data-scroll href="#" class="site-logo">
+						<img style="width: 80px;" src="img/hypersafuu/Logo-png.png" alt="HS">
+						<h5>HyperSafuu</h5>
+						<!-- <svg class="woox-icon" viewBox="0 0 481.448 101.996">
+							<path d="M152.514 14.926c0 2.1-1.339 4.593-2.1 7.081L126.3 89.366c-2.487 7.654-8.229 11.673-14.543 11.673-6.889 0-12.056-4.019-15.309-11.673L76.162 43.822 55.877 89.366c-3.253 7.654-8.994 11.673-15.309 11.673-6.7 0-12.056-4.019-14.543-11.673L2.1 22.007C1.148 19.519 0 17.031 0 14.926A14.213 14.213 0 0 1 14.352.574c5.358 0 11.1 3.062 12.821 8.037l15.5 49.18L62.575 9.76C65.063 3.827 69.655.574 76.162.574c6.7 0 11.29 3.253 13.778 9.186l19.71 48.031 15.692-49.18c1.531-4.593 7.271-8.037 12.821-8.037a14.212 14.212 0 0 1 14.351 14.352zM263.69 51.285c0 34.253-29.853 50.711-51.667 50.711-22.006 0-51.859-16.458-51.859-50.711C160.164 17.223 190.016 0 212.022 0c21.815 0 51.668 17.223 51.668 51.285zm-73.292 0c0 14.352 9.568 24.3 21.624 24.3 11.864 0 21.624-9.951 21.624-24.3 0-14.926-9.759-24.877-21.624-24.877-12.055 0-21.622 9.951-21.622 24.877zm190.974 0c0 34.253-29.853 50.715-51.672 50.715-22.006 0-51.858-16.458-51.858-50.711C277.845 17.223 307.7 0 329.7 0c21.819 0 51.672 17.223 51.672 51.285zm-73.291 0c0 14.352 9.567 24.3 21.623 24.3 11.865 0 21.624-9.951 21.624-24.3 0-14.926-9.759-24.877-21.624-24.877-12.056 0-21.623 9.951-21.623 24.877zm173.367 36.932c0 7.271-6.7 13.4-13.97 13.4-4.4 0-7.846-2.3-10.716-5.55l-21.05-24.686-21.05 24.686c-2.87 3.253-6.123 5.55-10.716 5.55-7.08 0-13.97-6.124-13.97-13.4a12.074 12.074 0 0 1 3.254-8.229l25.45-28.9-25.45-28.9a12.348 12.348 0 0 1-3.062-8.037c0-7.463 6.89-13.586 13.97-13.586a13.062 13.062 0 0 1 10.716 5.549L435.712 30.8l20.859-24.676c2.87-3.444 6.315-5.549 10.907-5.549 6.89 0 13.778 6.124 13.778 13.586a12.352 12.352 0 0 1-3.062 8.037l-25.451 28.9 25.451 28.9a11.252 11.252 0 0 1 3.254 8.219z" data-name="Слой 2" />
+						</svg> -->
+					</a>
+					<p style="font-weight: bolder;">Follow us on social networks and contact our support team in case of any questions.</p>
+				</div>
+				<div class="widget w-contacts">
+					<ul class="socials socials--white">
+						<li class="social-item">
+							<a href="#">
+								<i class="fab fa-twitter woox-icon"></i>
+							</a>
+						</li>
+						<li class="social-item">
+							<a href="#">
+								<i class="fab fa-dribbble woox-icon"></i>
+							</a>
+						</li>
+						<li class="social-item">
+							<a href="#">
+								<i class="fab fa-instagram woox-icon"></i>
+							</a>
+						</li>
+						<li class="social-item">
+							<a href="#">
+								<i class="fab fa-linkedin-in woox-icon"></i>
+							</a>
+						</li>
+						<li class="social-item">
+							<a href="#">
+								<i class="fab fa-facebook-square woox-icon"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<div class="sub-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12 col-sm-offset-0 col-xs-12">
+					<span>© All right reserved 2022.</span>
+					<span><a href="">HyperSafuu</a> - The future of cryptocurrency.</span>
+					<!-- <div class="logo-design">
+						<img src="img/logo-fire.png" alt="ThemeFire">
+						<div class="design-wrap">
+							<div class="sup-title">designed by</div>
+							<a href="https://themeforest.net/user/themefire/portfolio" class="logo-title">themefire</a>
+						</div>
+					</div>
+					<div class="logo-design logo-design-crumina">
+						<img src="img/crumina-logo.png" alt="Crumina">
+						<div class="design-wrap">
+							<div class="sup-title">developed by</div>
+							<a href="https://crumina.net/" class="logo-title">Crumina</a>
+						</div>
+					</div> -->
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<a class="back-to-top" href="#">
+		<svg class="woox-icon icon-top-arrow">
+			<use xlink:href="#icon-top-arrow"></use>
+		</svg>
+	</a>
+</footer>
+
+<!-- ... end Footer -->
+
+
+<script src="js/method-assign.js"></script>
+
+<!-- jQuery first, then Other JS. -->
+
+<script src="js/jquery-3.3.1.js"></script>
+
+<script src="js/js-plugins/leaflet.js"></script>
+<script src="js/js-plugins/MarkerClusterGroup.js"></script>
+<script src="js/js-plugins/crum-mega-menu.js"></script>
+<script src="js/js-plugins/waypoints.js"></script>
+<script src="js/js-plugins/jquery-circle-progress.js"></script>
+<script src="js/js-plugins/segment.js"></script>
+<script src="js/js-plugins/bootstrap.js"></script>
+<script src="js/js-plugins/imagesLoaded.js"></script>
+<script src="js/js-plugins/jquery.matchHeight.js"></script>
+<script src="js/js-plugins/jquery-countTo.js"></script>
+<script src="js/js-plugins/Headroom.js"></script>
+<script src="js/js-plugins/jquery.magnific-popup.js"></script>
+<script src="js/js-plugins/popper.min.js"></script>
+<script src="js/js-plugins/particles.js"></script>
+<script src="js/js-plugins/perfect-scrollbar.js"></script>
+<script src="js/js-plugins/jquery.datetimepicker.full.js"></script>
+<script src="js/js-plugins/svgxuse.js"></script>
+<script src="js/js-plugins/select2.js"></script>
+<script src="js/js-plugins/smooth-scroll.js"></script>
+<script src="js/js-plugins/sharer.js"></script>
+<script src="js/js-plugins/isotope.pkgd.min.js"></script>
+<script src="js/js-plugins/ajax-pagination.js"></script>
+<script src="js/js-plugins/swiper.min.js"></script>
+<script src="js/js-plugins/material.min.js"></script>
+<script src="js/js-plugins/orbitlist.js"></script>
+<script src="js/js-plugins/highstock.js"></script>
+<script src="js/js-plugins/bootstrap-datepicker.js"></script>
+<script src="js/js-plugins/TimeCircles.js"></script>
+<script src="js/js-plugins/ion.rangeSlider.js"></script>
+
+<!-- FontAwesome 5.x.x JS -->
+
+<!-- <script defer src="fonts/fontawesome-all.js"></script> -->
+
+<script src="js/main.js"></script>
+<script src="https://kit.fontawesome.com/081bdfb185.js" crossorigin="anonymous"></script>
+<!-- SVG icons loader -->
+<script src="js/svg-loader.js"></script>
+<!-- /SVG icons loader -->
+
+</body>
+</html>
