@@ -113,6 +113,87 @@
 		h5, .h5 {
 			font-family: 'Poppins', sans-serif;
 		}
+		.btn--apple:hover, .btn--apple:active {
+			background-color: #ffba0017;
+			border-color: #ffba00;
+			color: #fff;
+		}
+		.text-heading-hypersafuu {
+			font-size: 40px;
+    	line-height: 56px;
+			font-family: Arial, Helvetica, sans-serif;
+			font-weight: 500;
+			margin-bottom: 2em;
+			text-shadow: #ffba00 0px 0px 19px;
+			background: linear-gradient(90deg, #eee 42%, #ffba00 100%);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+		.about-us-card {
+			border: 2px #ffba00 solid;
+			background-color: rgba(255, 255, 255, 0.193);
+			border-radius: 15px;
+			max-width: 398px;
+		}
+
+		.about-us-card h2 {
+			margin-bottom: 10px;
+			text-shadow: 0 0 4px #ffba0066;
+			color: #ffba00;
+			font-weight: 600;
+			font-size: 50px;
+			line-height: 80px;
+		}
+		.about-us-card p {
+			color: #fff;
+			font-weight: 600;
+			font-size: 21px;
+			line-height: 32px;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+		body {
+			font-family: Arial, Helvetica, sans-serif;
+		}
+		.heading-text {
+			font-size: 17px;
+			line-height: 26px;
+			color: #fff;
+		}
+		.heading-sup-title {
+			font-weight: 700;
+			text-transform: uppercase;
+		}
+		.contract {
+			padding: 10px;
+			margin-top: 60px;
+			border: 1px solid hsla(0,0%,100%,.1);
+			border-radius: 8px;
+			font-size: 17px;
+			line-height: 26px;
+		}
+		.contract p {
+			padding-left: 34px;
+			background: url(img/hypersafuu/1.svg) no-repeat 0;
+			color: hsla(0,0%,100%,.54);
+			word-break: break-all;
+		}
+		.hs-glow {
+			text-shadow: 0 0 4px #ffba0066;
+			background: linear-gradient(90deg, #ffba00 42%, #eee 100%);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+		h3 {
+			margin-top: 3em;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+		header h4 {
+			letter-spacing: 0.5px;
+			line-height: 1.5em;
+			font-family: Arial;
+			margin-top: 2em!important;
+			margin-bottom: 2em;
+		}
 	</style>
 </head>
 <body class="crumina-grid">
@@ -161,7 +242,7 @@
 <!-- ... end Header -->
 <div class="main-content-wrapper">
 	<!-- HOME -->
-	<section data-settings="" class="main-section bg-1 medium-padding120 responsive-align-center">
+	<section data-settings="" class="main-section bg-1 medium-padding120 responsive-align-center" style="padding-bottom: 0;">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
@@ -169,18 +250,28 @@
 				</div>
 				<div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
 					<header class="crumina-module crumina-heading heading--h1 heading--with-decoration">
-						<h1 class="heading-title f-size-90 weight-normal no-margin" style="letter-spacing: 3px;">THE FUTURE <br>
-						<span class="weight-bold">IS HERE</span></h1>
+						<!-- <h3 class="heading-title weight-normal no-margin" style="letter-spacing: 3px;">
+							<span class="weight-bold">IS HERE</span>
+							First Asset Multiplication Protocol - Get reward in every 10 minutes - 144 times in a day - Auto Staking Upto 1,124,375.72% APY
+						</h3> -->
+						<h4>
+							First Asset Multiplication Protocol - Get reward in every 10 minutes - 144 times in a day - Auto Staking Upto 450,025.99% APY
+						</h4>
 						<h5 class="text-muted" style="letter-spacing: 2px;color: lightgrey!important;">
-							HyperSafuu is a multifunctional cross chain ecosystem comprising of double rewards, staking DAO and swap.
+							<!-- HyperSafuu is a multifunctional cross chain ecosystem comprising of double rewards, staking DAO and swap. -->
+							<!-- <ul>
+								<li>Highest forever APY – 1,124,375.72%</li>
+								<li>First Automatic Staking and Compounding in Your Wallet!</li>
+								<li>Get Rewards Every 10 Minutes / 24 Hours</li>
+							</ul> -->
 						</h5>
 					</header>
 
 					<a target="_blank" href="/whitepaper.pdf" class="btn btn--market btn--apple btn--with-icon btn--icon-left" style="margin-top: 0;">
 						Whitepaper
 					</a>
-					<a href="#" class="btn btn--market btn--google">
-						Buy on PancakeSwap!
+					<a href="#" class="btn btn--market btn--apple">
+						Audit
 					</a>
 					<br>
 					<a target="_blank" href="/whitepaper.pdf" class="d-none mt-3 btn btn--market btn--apple btn--with-icon btn--icon-left col-12" style="width: inherit;margin: 3% 2%;">
@@ -191,11 +282,11 @@
 				</div>
 				<div class="row mt-5 d-md-none">
 					<div class="col-lg-10 col-lg-offset-1 col-md-12 col-sm-12 col-xs-12 mt-3">
-						<div class="swiper-container" data-show-items="5" data-prev-next="1">
+						<div class="swiper-container" data-show-items="4" data-prev-next="1">
 							<div class="swiper-wrapper">
 								<div class="swiper-slide">
 									<a class="clients-item" href="#">
-										<img src="img/hypersafuu/partners/BSC-scan.png" class="" alt="logo">
+										<img src="img/hypersafuu/partners/certik.webp" class="" alt="logo">
 									</a>
 								</div>
 								<div class="swiper-slide">
@@ -205,7 +296,7 @@
 								</div>
 								<div class="swiper-slide">
 									<a class="clients-item" href="#">
-										<img src="img/hypersafuu/partners/Coinmarketcap.png" class="" alt="logo">
+										<img src="img/hypersafuu/partners/coinmarketcap.webp" class="" alt="logo">
 									</a>
 								</div>
 								<div class="swiper-slide">
@@ -213,12 +304,25 @@
 										<img src="img/hypersafuu/partners/pinksale.png" class="" alt="logo">
 									</a>
 								</div>
-								<div class="swiper-slide">
-									<a class="clients-item" href="#">
-										<img src="img/hypersafuu/partners/YahooFinance.png" class="" alt="logo">
-									</a>
-								</div>
 							</div>
+						</div>
+					</div>
+					<div class="col-lg-10 col-lg-offset-1 col-md-12 col-sm-12 col-xs-12 mt-3 d-none">
+						<div class="row">
+							<div class="col-sm-3">
+								<a class=" clients-item" href="#">
+									<img src="img/hypersafuu/partners/certik.webp" class="" alt="logo">
+								</a>
+							</div>
+							<a class="col-sm-3 clients-item" href="#">
+								<img src="img/hypersafuu/partners/coingecko.webp" class="" alt="logo">
+							</a>
+							<a class="col-sm-3 clients-item" href="#">
+								<img src="img/hypersafuu/partners/coinmarketcap.webp" class="" alt="logo">
+							</a>
+							<a class="col-sm-3 clients-item" href="#">
+								<img src="img/hypersafuu/partners/pinksale.png" class="" alt="logo">
+							</a>
 						</div>
 					</div>
 				</div>
@@ -262,30 +366,24 @@
 	<section id="about" class="medium-padding120 responsive-align-center">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+				<div class="col-sm-12 text-center">
+					<h2 class="text-heading-hypersafuu">Hyper Safuu Autostaking Protocol</h2>
+				</div>
+				<div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
 					<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
-						<div class="heading-sup-title">About Us</div>
+						<div class="heading-sup-title">About</div>
 						<!-- <h2 class="heading-title weight-normal">Statistics of currencies on
 							<span class="weight-bold">all your devices</span></h2> -->
 						<div class="heading-text" style="font-size: 110%;">
-							HyperSafuu is an ecosystem app that provides both simplicity and security in trading crypt and NFTs at the lowest fees. offering a reliable and easy-to-use platform to access the broader crypto economy.
-							<br><br>
-							HyperSafuu token : a cryptocurrency that will serve as a utility token for paiements and to provide more security options in addition to the unlimited profit margin for holders with the unmatched reward and buyback protocols.
-							<br><br>
-							HyperSafuu app : innovative app with an interface that offers simple access to unique features for it’s users to trade with ease, while remaining safe with all the security solutions that are offered by the app.
-							<br><br>
-							Rewards : HyperSafuu token is unique in terms of it’s reward protocol. With 8% BUSD as a reward for HyperSafuu holders, the token offers a new way to unlimited profit by rewarding it’s holders in the highest percentage of BUSD on all buy/sell transactions.
-							<br><br>
-							<a href="#" class="btn btn--market btn--google">
-								Buy token
-							</a>
+							Hyper Safuu Finance is transforming DeFi with the Autostaking Protocol that delivers the industry’s highest forever APY, rebasing rewards every 10 minutes, and a simple buy-hold-earn system that grows your portfolio in your wallet, fast.
+							<br>
+							<div class="contract">
+								<p style="margin: 0;">
+									Contract: 0x6606823710e9dedebb062fc93b5a311f9e23afb2
+								</p>
+							</div>
 						</div>
 					</header>
-					<p class="d-none">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est
-						etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare
-						quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis
-						per laoreet sit amet cursus seacula qui mutationem consuetudium claritas est etiam processus dynamicus.
-					</p>
 					<div class="btn-market-wrap mt60 d-none">
 						<a href="#" class="btn btn--market btn--apple btn--with-icon btn--icon-left">
 							<svg class="woox-icon icon-apple">
@@ -308,12 +406,26 @@
 						</a>
 					</div>
 				</div>
-				<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mt30">
-					<img class="responsive-width-50" src="img/hypersafuu/about-us.png" alt="phone">
+				<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+					<!-- <img class="responsive-width-50" src="img/hypersafuu/about-us.png" alt="phone"> -->
+					<div class="about-us-card col-sm-12">
+						<div class="text-center" style="padding: 1em 0;">
+							<h2>450,025.99%</h2>
+							<p>Fixed Staking APY</p>
+							<a href="#" class="btn btn--market btn--apple" style="margin: 0;">
+								Buy token
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center" style="margin-top: 4em;">
+					<h3>
+						ʻʻAll <span class="hs-glow">Hyper Safuu</span> holders are rewarded with automatic compounding interest, increasing their holdings over time.ʻʻ
+					</h3>
 				</div>
 
 				<div class="row">
-					<div class="heading-sup-title text-center mt-5"><h4>What Makes Us Better</h4></div>
+					<div class="heading-sup-title text-center mt-5"><h4 class="text-heading-hypersafuu">What Makes Us Better</h4></div>
 					<div class="heading-sup-title text-center">A project that you can rely on with actual use case for tokens.</div>
 					<div class="mt-5"></div>
 					<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mb30">

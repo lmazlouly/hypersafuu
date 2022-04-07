@@ -5352,3 +5352,9 @@ img.mfp-img {
     opacity: 1; } }
 
 /*# sourceMappingURL=maps/theme-styles.css.map */
+
+.btn--apple:hover, .btn--apple:active {
+  background-color: #ffba0017;
+  border-color: #ffba00;
+  color: #fff;
+}
