@@ -22,6 +22,11 @@
 			}
 			
 		}
+		@media (max-width: 1300px) {
+			.crumina-info-box img{
+				display: none;
+			}
+		}
 		@media (min-width: 1200px) {
 			.d-lg-none {
 				display: none!important;
@@ -194,6 +199,20 @@
 			margin-top: 2em!important;
 			margin-bottom: 2em;
 		}
+		.tokenomics-icon {
+			margin: auto!important;
+			width: 150px!important;
+			height: 150px!important;
+		}
+		.pricing-table--small:hover {
+			background: linear-gradient(181.21deg, #000000 18.49%, #ffba00 140.39%);
+		}
+		.pricing-table--small:hover .price-sup-title {
+			color: #eee!important;
+		}
+		.pricing-table--small {
+			height: 100%;
+		}
 	</style>
 </head>
 <body class="crumina-grid">
@@ -286,58 +305,12 @@
 							<div class="swiper-wrapper">
 								<div class="swiper-slide">
 									<a class="clients-item" href="#">
-										<img src="img/hypersafuu/partners/certik.webp" class="" alt="logo">
+										<img src="img/hypersafuu/partners/certik.png" class="" alt="logo">
 									</a>
 								</div>
 								<div class="swiper-slide">
 									<a class="clients-item" href="#">
-										<img src="img/hypersafuu/partners/coingecko.webp" class="" alt="logo">
-									</a>
-								</div>
-								<div class="swiper-slide">
-									<a class="clients-item" href="#">
-										<img src="img/hypersafuu/partners/coinmarketcap.webp" class="" alt="logo">
-									</a>
-								</div>
-								<div class="swiper-slide">
-									<a class="clients-item" href="#">
-										<img src="img/hypersafuu/partners/pinksale.png" class="" alt="logo">
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-10 col-lg-offset-1 col-md-12 col-sm-12 col-xs-12 mt-3 d-none">
-						<div class="row">
-							<div class="col-sm-3">
-								<a class=" clients-item" href="#">
-									<img src="img/hypersafuu/partners/certik.webp" class="" alt="logo">
-								</a>
-							</div>
-							<a class="col-sm-3 clients-item" href="#">
-								<img src="img/hypersafuu/partners/coingecko.webp" class="" alt="logo">
-							</a>
-							<a class="col-sm-3 clients-item" href="#">
-								<img src="img/hypersafuu/partners/coinmarketcap.webp" class="" alt="logo">
-							</a>
-							<a class="col-sm-3 clients-item" href="#">
-								<img src="img/hypersafuu/partners/pinksale.png" class="" alt="logo">
-							</a>
-						</div>
-					</div>
-				</div>
-				<div class="row mt-5 d-lg-none">
-					<div class="col-lg-10 col-lg-offset-1 col-md-12 col-sm-12 col-xs-12 mt-3">
-						<div class="swiper-container" data-show-items="1" data-prev-next="1" style="max-width: 320px;">
-							<div class="swiper-wrapper">
-								<div class="swiper-slide">
-									<a class="clients-item" href="#">
-										<img src="img/hypersafuu/partners/BSC-scan.png" class="" alt="logo">
-									</a>
-								</div>
-								<div class="swiper-slide">
-									<a class="clients-item" href="#">
-										<img src="img/hypersafuu/partners/coingecko.webp" class="" alt="logo">
+										<img src="img/hypersafuu/partners/coingeko.png" class="" alt="logo">
 									</a>
 								</div>
 								<div class="swiper-slide">
@@ -350,9 +323,32 @@
 										<img src="img/hypersafuu/partners/pinksale.png" class="" alt="logo">
 									</a>
 								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row mt-5 d-lg-none">
+					<div class="col-lg-10 col-lg-offset-1 col-md-12 col-sm-12 col-xs-12 mt-3">
+						<div class="swiper-container" data-show-items="1" data-prev-next="1" style="max-width: 320px;">
+							<div class="swiper-wrapper">
 								<div class="swiper-slide">
 									<a class="clients-item" href="#">
-										<img src="img/hypersafuu/partners/YahooFinance.png" class="" alt="logo">
+										<img src="img/hypersafuu/partners/certik.png" class="" alt="logo">
+									</a>
+								</div>
+								<div class="swiper-slide">
+									<a class="clients-item" href="#">
+										<img src="img/hypersafuu/partners/coingeko.png" class="" alt="logo">
+									</a>
+								</div>
+								<div class="swiper-slide">
+									<a class="clients-item" href="#">
+										<img src="img/hypersafuu/partners/Coinmarketcap.png" class="" alt="logo">
+									</a>
+								</div>
+								<div class="swiper-slide">
+									<a class="clients-item" href="#">
+										<img src="img/hypersafuu/partners/pinksale.png" class="" alt="logo">
 									</a>
 								</div>
 							</div>
@@ -426,7 +422,7 @@
 
 				<div class="row">
 					<div class="heading-sup-title text-center mt-5"><h4 class="text-heading-hypersafuu">What Makes Us Better</h4></div>
-					<div class="heading-sup-title text-center">A project that you can rely on with actual use case for tokens.</div>
+					<div class="heading-sup-title text-center" style="color: #eee;">A project that you can rely on with actual use case for tokens.</div>
 					<div class="mt-5"></div>
 					<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mb30">
 						<div class="crumina-module crumina-info-box info-box--style6">
@@ -488,25 +484,16 @@
 	<section id="tokenomics">
 		<div class="container">
 			<div class="row medium-padding100">
-				<div class="heading-sup-title "><h2 class="text-center">Tokenomics</h2></div>
+				<div class="heading-sup-title "><h2 class="text-center text-heading-hypersafuu">Tokenomics</h2></div>
 				<!-- Marketing -->
 				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12" data-mh="pricing-item" style="height: 403.781px;">
 					<div class="crumina-module crumina-pricing-table pricing-table--small">
-						<div class="pricing-thumb">
-							<!-- <img src="img/if_Bitcoin_2745023.png" class="woox-icon" alt="bitcoin"> -->
-							<i class="woox-icon fa-4x mr-5 fas fa-chart-bar"></i>
-							<h5 class="pricing-title">3%  <span>Marketing</span></h5>
-							<!-- <div class="gain-drop-arrow">
-								<svg class="woox-icon icon-arrow-up arrow-up">
-									<use xlink:href="#icon-arrow-up"></use>
-								</svg>
-								<svg class="woox-icon icon-arrow-down arrow-down">
-									<use xlink:href="#icon-arrow-down"></use>
-								</svg>
-							</div> -->
+						<div class="pricing-thumb" style="margin-bottom: 0;">
+							<img src="img/hypersafuu/tokenomics/marketing.png" class="woox-icon tokenomics-icon" alt="bitcoin">
 						</div>
+						<h5 class="pricing-title text-center" style="margin-bottom: 1em;">3% Marketing</h5>
 						<div class="price">
-							<div class="price-sup-title">
+							<div class="price-sup-title text-center">
 								3% of all transactions will go to our team marketing wallet to ensure we are able to come up with the best campaigns to get a great return on your investment
 							</div>
 							<!-- <div class="price-value">$9.635.34
@@ -519,12 +506,12 @@
 				<!-- Buy Back -->
 				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12" data-mh="pricing-item" style="height: 403.781px;">
 					<div class="crumina-module crumina-pricing-table pricing-table--small">
-						<div class="pricing-thumb">
-							<i class="woox-icon fas fa-redo fa-4x mr-5"></i>
-							<h5 class="pricing-title">2%  <span>Buy back</span></h5>
+						<div class="pricing-thumb" style="margin-bottom: 0;">
+							<img src="img/hypersafuu/tokenomics/buy-back.png" class="woox-icon tokenomics-icon" alt="bitcoin">
 						</div>
+						<h5 class="pricing-title text-center" style="margin-bottom: 1em;">2% Buy Back</h5>
 						<div class="price">
-							<div class="price-sup-title">
+							<div class="price-sup-title text-center">
 								2% of every transaction is transferred into liquidity Pool for Pancakeswap to create a stable price floor.
 							</div>
 						</div>
@@ -533,12 +520,12 @@
 				<!-- Rewards -->
 				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12" data-mh="pricing-item" style="height: 403.781px;">
 					<div class="crumina-module crumina-pricing-table pricing-table--small">
-						<div class="pricing-thumb">
-							<i class="woox-icon fas fa-gift fa-4x mr-5"></i>
-							<h5 class="pricing-title">8% <span>BUSD Rewards</span></h5>
+						<div class="pricing-thumb" style="margin-bottom: 0;">
+							<img src="img/hypersafuu/tokenomics/rewards.png" class="woox-icon tokenomics-icon" alt="bitcoin">
 						</div>
+						<h5 class="pricing-title text-center" style="margin-bottom: 1em;">8% BUSD Rewards</h5>
 						<div class="price">
-							<div class="price-sup-title">
+							<div class="price-sup-title text-center">
 								Automatically earn 8% Binance pegged BUSD rewards just for holding HyperSafuu . 8% of every buy/sell is awarded to holders automatically in their wallets.
 							</div>
 						</div>
@@ -547,12 +534,12 @@
 				<!-- Liquidity Pool -->
 				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12" data-mh="pricing-item" style="height: 403.781px;">
 					<div class="crumina-module crumina-pricing-table pricing-table--small">
-						<div class="pricing-thumb">
-							<i class="woox-icon fas fa-redo fa-4x mr-5"></i>
-							<h5 class="pricing-title">1% <span>Auto Liquidity</span></h5>
+						<div class="pricing-thumb" style="margin-bottom: 0;">
+							<img src="img/hypersafuu/tokenomics/lequidity.png" class="woox-icon tokenomics-icon" alt="bitcoin">
 						</div>
+						<h5 class="pricing-title text-center" style="margin-bottom: 1em;">1% Auto Liquidity</h5>
 						<div class="price">
-							<div class="price-sup-title">
+							<div class="price-sup-title text-center">
 								1% of every buy/sell is automatically deposited into the locked liquidity wallet as $BNB, providing continuous liquidity to aid in price stabilization. The liquidity pool is locked and certified.
 							</div>
 						</div>
@@ -565,7 +552,7 @@
 	<section id="roadmap">
 		<div class="container">
 			<div class="row medium-padding100">
-				<div class="heading-sup-title "><h2 class="text-center">Roadmap</h2></div>
+				<div class="heading-sup-title "><h2 class="text-center text-heading-hypersafuu" style="margin-bottom: 0;">Roadmap</h2></div>
 
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-none">
 					<div class="tabs tabs--style5">
@@ -764,7 +751,7 @@
 		<div class="container">
 			<hr class="divider">
 			<div class="row medium-padding100">
-				<div class="heading-sup-title "><h2 class="text-center">Token Distribution</h2></div>
+				<div class="heading-sup-title "><h2 class="text-center text-heading-hypersafuu">Token Distribution</h2></div>
 				<div class="text-center">
 					<p style="margin: auto;max-width: 50%;">
 						Initial Token Distribution of HyperSafuu , was designed to ensure immediate & long-term
@@ -856,7 +843,7 @@
 		<div class="container">
 			<hr class="divider">
 			<div class="row medium-padding100">
-				<div class="heading-sup-title "><h2 class="text-center">Frequently Asked Questions</h2></div>
+				<div class="heading-sup-title "><h2 class="text-center text-heading-hypersafuu">Frequently Asked Questions</h2></div>
 				<!-- FAQ 1 -->
 				<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mb30">
 					<ul class="crumina-module crumina-accordion accordion--style4" id="accordion5">
