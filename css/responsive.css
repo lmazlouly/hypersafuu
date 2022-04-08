@@ -1,0 +1,46 @@
+html, body {
+  overflow-x: hidden;
+}
+@media (max-width: 1023px) {
+  .open-app-btn {
+    display: none!important;
+  }
+  *[data-mh="pricing-item"] {
+    margin-bottom: 2em;
+  }
+}
+
+@media (max-width: 1199px) {
+  .about-us-card {
+    margin: auto!important;
+  }
+  .d-md-none {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 425px) {
+  .about-us-card h2{
+    font-size: 10vw!important;
+  }
+  .token-details-img {
+    display: flex;
+    justify-content: center;
+  }
+  .container {
+    max-width: 320px;
+    padding: 0;
+    margin: auto;
+  }
+}
+@media (max-width: 799px) {
+  footer ul {
+    display: inline-block;
+  }
+}
+
+@media (min-width: 1200px) {
+  .d-lg-none {
+    display: inline-block;
+  }
+}
