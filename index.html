@@ -12,6 +12,9 @@
 	<!-- <link rel="stylesheet" type="text/css" href="css/font-awesome.css"> -->
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700i,900," rel="stylesheet">
 	<style>
+		ul {
+			padding-inline-start: 20px;
+		}
 		@media (min-width: 1201px) {
 			.vertical-center {
 				margin: 0;
@@ -129,8 +132,8 @@
 			font-family: Arial, Helvetica, sans-serif;
 			font-weight: 500;
 			margin-bottom: 2em;
-			text-shadow: #ffba00 0px 0px 19px;
-			background: linear-gradient(90deg, #eee 42%, #ffba00 100%);
+			/* text-shadow: #ffba00 0px 0px 19px; */
+			background: linear-gradient(90deg, #eee 32%, #ffba00 100%);
 			-webkit-background-clip: text;
 			-webkit-text-fill-color: transparent;
 		}
@@ -213,6 +216,12 @@
 		.pricing-table--small {
 			height: 100%;
 		}
+		.open-app-btn {
+			border: 2px solid #ffba00;
+			border-radius: 5px;
+			color: #ffba00;
+			padding: 10px;
+		}
 	</style>
 </head>
 <body class="crumina-grid">
@@ -241,13 +250,15 @@
 					</span>
 				</a>
 				<ul class="primary-menu-menu">
-					<li><a data-scroll href="#">Home</a></li>
+					<!-- <li><a data-scroll href="#">Home</a></li> -->
 					<li><a data-scroll href="#about">About</a></li>
 					<li><a data-scroll href="#tokenomics">Tokenomics</a></li>
 					<li><a data-scroll href="#roadmap">Roadmap</a></li>
 					<li><a data-scroll href="#token-details">Token Details</a></li>
-					<li><a data-scroll href="#faq">F.A.Q</a></li>
+					<!-- <li><a data-scroll href="#faq">F.A.Q</a></li> -->
+					<!-- <li><a data-scroll href="#faq">Open App</a></li> -->
 				</ul>
+				<a class="open-app-btn" href="#">Open App</a>
 			</nav>
 			<!-- <select class="woox--select language-switcher" data-minimum-results-for-search="Infinity" data-dropdown-css-class="language-switcher-dropdown">
 				<option value="French" data-href="">French</option>
@@ -418,6 +429,23 @@
 					<h3>
 						ʻʻAll <span class="hs-glow">Hyper Safuu</span> holders are rewarded with automatic compounding interest, increasing their holdings over time.ʻʻ
 					</h3>
+				</div>
+				<div class="col-xs-12" style="justify-content: center;display: flex;">
+					<!-- Presale Countdown -->
+					<div class="col-lg-6 col-xs-12" data-mh="pricing-item" style="height: 403.781px;margin-top: 3em;">
+						<div class="crumina-module crumina-pricing-table pricing-table--small">
+							<div class="pricing-thumb">
+								<h5 class="pricing-title text-center" style="min-width: -webkit-fill-available;">Countdown for Presale</h5>
+							</div>
+							<div class="price">
+								<div class="price-sup-title">
+									<div class="crumina-countdown-item">
+										<div class="crumina-countdown" data-date="2022-04-13 00:14:00"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 
 				<div class="row">
@@ -642,7 +670,7 @@
 											<svg class="woox-icon icon-check-mark-2">
 												<use xlink:href="#icon-check-mark-2"></use>
 											</svg>
-											<a href="#"><strong>Start fairlaunch on PinkSale</strong></a>
+											<a href="#"><strong>Start Presale on PinkSale</strong></a>
 										</li>
 										<li class="zl">
 											<svg class="woox-icon icon-check-mark-2">
@@ -779,7 +807,7 @@
 							</p>
 							<p class="d-lg-none">
 								<i class="fas fa-dot-circle" style="color: #e1e424;"></i>
-								40% FAIRLAUNCH SALE
+								40% PRESALE
 							</p>
 						</div>
 
@@ -795,7 +823,7 @@
 								<i class="fas fa-dot-circle" style="color: #ffa970;"></i>
 							</p>
 							<p>
-								40% FAIRLAUNCH SALE
+								40% PRESALE
 								<i class="fas fa-dot-circle" style="color: #e1e424;"></i>
 							</p>
 						</div>
@@ -803,10 +831,9 @@
 				</div>
 				<div class="row text-center" style="">
 					<!-- Presale Countdown -->
-					<div class="col-lg-6 col-xs-12" data-mh="pricing-item" style="height: 403.781px;">
+					<!-- <div class="col-lg-6 col-xs-12 mx-auto" data-mh="pricing-item" style="height: 403.781px;">
 						<div class="crumina-module crumina-pricing-table pricing-table--small">
 							<div class="pricing-thumb">
-								<!-- <i class="woox-icon fas fa-redo fa-4x mr-5"></i> -->
 								<h5 class="pricing-title text-center" style="min-width: -webkit-fill-available;">Countdown for Presale</h5>
 							</div>
 							<div class="price">
@@ -817,23 +844,7 @@
 								</div>
 							</div>
 						</div>
-					</div>
-					<!-- Launch Countdown -->
-					<div class="col-lg-6 col-xs-12 mx-sm-2" data-mh="pricing-item" style="height: 403.781px;">
-						<div class="crumina-module crumina-pricing-table pricing-table--small">
-							<div class="pricing-thumb">
-								<!-- <i class="woox-icon fas fa-redo fa-4x mr-5"></i> -->
-								<h5 class="pricing-title text-center" style="min-width: -webkit-fill-available;">Countdown for Launch</h5>
-							</div>
-							<div class="price">
-								<div class="price-sup-title">
-									<div class="crumina-countdown-item">
-										<div class="crumina-countdown" data-date="2022-03-21 00:00:00"></div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</div>
@@ -953,57 +964,71 @@
 	<canvas id="can"></canvas>
 	<div class="container">
 		<div class="row mt-5">
-			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="text-align: left;">
+			<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" style="text-align: left;">
 				<div class="widget w-info">
 					<a data-scroll href="#" class="site-logo" style="margin-bottom: 0px;">
 						<img style="width: 80px;" src="img/hypersafuu/Logo-png.png" alt="HS">
 						<h5>HyperSafuu</h5>
 					</a>
-					<div class="col-lg-12 col-md-12 col-sm-12 col-sm-offset-0 col-xs-12" style="margin-bottom: 50px;">
-						HyperSafuu is a multifunctional cross chain ecosystem comprising of double rewards, staking DAO and swap.
+					<div class="col-lg-12 col-md-12 col-sm-12 col-sm-offset-0 col-xs-12">
+						<!-- HyperSafuu is a multifunctional cross chain ecosystem comprising of double rewards, staking DAO and swap. -->
 						<!-- HyperSafuu is an ecosystem app that provides both simplicity and security in trading crypt and NFTs at the lowest fees. offering a reliable and easy-to-use platform to access the broader crypto economy. -->
 					</div>
 					<div class="col-lg-12 col-md-12 col-sm-12 col-sm-offset-0 col-xs-12">
-						<span>© All right reserved 2022.</span> <br>
-						<span><a href="index.html">HyperSafuu</a> - The future of cryptocurrency.</span>
+						<a href="mailto:contact@hypersafuu.io">contact@hypersafuu.io</a>
+						<div class="widget w-contacts">
+							<ul class="socials socials--white">
+								<li class="social-item">
+									<a target="_blank" href="https://twitter.com/HyperSafuu">
+										<i class="fab fa-twitter woox-icon"></i>
+									</a>
+								</li>
+								<li class="social-item">
+									<a target="_blank" href="https://instagram.com/HyperSafuu">
+										<i class="fab fa-instagram woox-icon"></i>
+									</a>
+								</li>
+								<li class="social-item">
+									<a target="_blank" href="https://t.me/HyperSafuu">
+										<i class="fas fa-paper-plane woox-icon"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-				<div style="margin: 0;-ms-transform: translateY(25%);transform: translateY(25%);">
-					<div class="widget w-info">
-					</div>
-					<p style="font-weight: bolder;">Follow us on social networks and contact our support team in case of any questions.</p>
-					<div class="widget w-contacts">
-						<ul class="socials socials--white">
-							<li class="social-item">
-								<a target="_blank" href="https://twitter.com/HyperSafuu">
-									<i class="fab fa-twitter woox-icon"></i>
-								</a>
-							</li>
-							<li class="social-item">
-								<a target="_blank" href="https://instagram.com/HyperSafuu">
-									<i class="fab fa-instagram woox-icon"></i>
-								</a>
-							</li>
-							<li class="social-item">
-								<a target="_blank" href="https://t.me/HyperSafuu">
-									<i class="fas fa-paper-plane woox-icon"></i>
-								</a>
-							</li>
+			<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" style="text-align: left;">
+				<div class="widget w-info">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-sm-offset-0 col-xs-12" style="margin-bottom: 50px;">
+						<h5>Quick Links</h5>
+						<ul>
+							<li><a href="#tokenomics"> Tokenomics</a></li>
+							<li><a href="#roadmap"> Roadmap</a></li>
+							<li><a href="#faq"> F.A.Q</a></li>
 						</ul>
-						<a href="mailto:contact@hypersafuu.io">contact@hypersafuu.io</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" style="text-align: left;">
+				<div class="widget w-info">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-sm-offset-0 col-xs-12" style="margin-bottom: 50px;">
+						<h5>Documents</h5>
+						<ul>
+							<li><a href="whitepaper.pdf"> Whitepaper</a></li>
+							<li><a href="#"> Audit</a></li>
+						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="sub-footer d-none">
+	<div class="sub-footer">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12 col-sm-offset-0 col-xs-12">
-					<span>© All right reserved 2022.</span>
-					<span><a href="index.html">HyperSafuu</a> - The future of cryptocurrency.</span>
+				<div class="col-xs-12">
+					<span style="font-size: 20px;">© All rights reserved.</span>
+					<!-- <span><a href="index.html">HyperSafuu</a> - The future of cryptocurrency.</span> -->
 					<!-- <div class="logo-design">
 						<img src="img/logo-fire.png" alt="ThemeFire">
 						<div class="design-wrap">
@@ -1019,7 +1044,6 @@
 						</div>
 					</div> -->
 				</div>
-
 			</div>
 		</div>
 	</div>
