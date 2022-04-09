@@ -15,7 +15,7 @@ html, body {
     margin: auto!important;
   }
   .d-md-none {
-    display: inline-block;
+    display: none;
   }
 }
 
@@ -38,9 +38,8 @@ html, body {
     display: inline-block;
   }
 }
-
 @media (min-width: 1200px) {
   .d-lg-none {
-    display: inline-block;
+    display: none;
   }
 }
