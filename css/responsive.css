@@ -43,3 +43,19 @@ html, body {
     display: none;
   }
 }
+.btn-pinksale {
+  background-color: #ffba0017;
+  border-color: #ffba00;
+  color: #fff;
+  width: 294px;
+  margin: auto;
+  margin-top: 3%;
+}
+@media (max-width: 768px) {
+  .btn-pinksale {
+    width: 238px;
+  }
+}
+.btn-pinksale:hover {
+  color: #ffba00;
+}
