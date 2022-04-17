@@ -310,8 +310,8 @@
 						Audit
 					</a>
 					<br>
-					<a target="_blank" href="https://www.pinksale.finance/#/launchpad/0xc28e19Ff590de0eDA1cF4640d19436E596D9Fcd7?chain=BSC" class="mt-3 btn btn--market btn--apple btn-pinksale">
-						Presale
+					<a target="_blank" href="https://pancakeswap.finance/swap?outputCurrency=0x6606823710e9dedebb062fc93b5a311f9e23afb2" class="mt-3 btn btn--market btn--apple btn-pinksale">
+						Buy On PancakeSwap
 					</a>
 					<!-- <a data-scroll href="#details" class="btn btn--large btn--transparent btn--secondary">Details</a>
 					<a data-scroll href="#details" class="btn btn--large btn--transparent btn--secondary">Details</a> -->
@@ -371,6 +371,12 @@
 							</div>
 						</div>
 					</div>
+				</div>
+				<div class="text-center">
+					<!-- <div class="nomics-ticker-widget" data-name="PancakeSwap" data-base="CAKE" data-quote="USD"></div><script src="https://widget.nomics.com/embed.js"></script> -->
+					<div class="nomics-ticker-widget" data-name="PancakeSwap" data-base="CAKE" data-quote="HSAFUU"></div><script src="https://widget.nomics.com/embed.js"></script>
+					<!-- <iframe class="chartie" loading="lazy" width="100%" height="500px" class src="https://charts.bogged.finance/?c=bsc&t=0x6606823710E9DEdeBB062fC93b5A311f9e23Afb2" style="border: none;"></iframe> -->
+					<!-- <iframe src="" frameborder="0"></iframe> -->
 				</div>
 			</div>
 		</div>
@@ -1156,6 +1162,11 @@
 <script src="js/svg-loader.js"></script>
 <!-- /SVG icons loader -->
 <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/85188/jquery.wavify.js"></script>
-
+<script>
+	$(document).ready(function () {
+		// console.log("Helo")
+		$('.nomics-ticker-widget-footer').remove();
+	});
+</script>
 </body>
 </html>

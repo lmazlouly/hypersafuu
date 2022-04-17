@@ -59,3 +59,9 @@ html, body {
 .btn-pinksale:hover {
   color: #ffba00;
 }
+.nomics-ticker-widget-embedded {
+  margin: auto;
+}
+.nomics-ticker-widget-footer {
+  display: none!important;
+}
